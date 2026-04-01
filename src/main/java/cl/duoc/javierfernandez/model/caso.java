@@ -6,37 +6,38 @@ import java.time.LocalDate;
 
 public class caso {
 
-private Long id;
-@NotBlank
-private String paciente;
+    private Long id;
 
-@NotBlank
-private String especialidad;
+    @NotBlank
+    private String paciente;
 
-private String estado;
+    @NotBlank
+    private String especialidad;
 
-@NotNull
-private LocalDate fecha;
+    private String estado;
 
-private int prioridad;
+    @NotNull
+    private LocalDate fecha;
 
-public caso() {}
+    private int prioridad;
 
-public Long getId() { return id; }
-public void setId(Long id) { this.id = id; }
+    public caso() {}
 
-public String getPaciente() { return paciente; }
-public void setPaciente(String paciente) { this.paciente = paciente; }
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
 
-public String getEspecialidad() { return especialidad; }
-public void setEspecialidad(String especialidad) { this.especialidad = especialidad; }
+    public String getPaciente() { return paciente; }
+    public void setPaciente(String paciente) { this.paciente = paciente; }
 
-public String getEstado() { return estado; }
-public void setEstado(String estado) { this.estado = estado; }
+    public String getEspecialidad() { return especialidad; }
+    public void setEspecialidad(String especialidad) { this.especialidad = especialidad; }
 
-public LocalDate getFecha() { return fecha; }
-public void setFecha(LocalDate fecha) { this.fecha = fecha; }
+    public String getEstado() { return estado; }
+    public void setEstado(String estado) { this.estado = estado; }
 
-public int getPrioridad() { return prioridad; }
-public void setPrioridad(int prioridad) { this.prioridad = prioridad; }
+    public LocalDate getFecha() { return fecha; }
+    public void setFecha(LocalDate fecha) { this.fecha = fecha; }
+
+    public int getPrioridad() { return prioridad; }
+    public void setPrioridad(int prioridad) { this.prioridad = prioridad; }
 }

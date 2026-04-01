@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class casoepository {
+public class casorepository {
 
 private List<caso> lista = new ArrayList<>();
 private Long id = 1L;
